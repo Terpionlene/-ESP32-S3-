@@ -3,12 +3,11 @@ build/
 managed_components/
 dependencies.lock
 
-# Third-party libraries (can be re-downloaded)
+# Third-party LVGL library (can be re-downloaded via idf.py)
 components/lvgl/
-aip-cpp-sdk-4.16.7/
+
+# Original Arduino project (too large, not needed)
 esp32s3-ai-chat/
-audio_repair/
-PPT_solution/
 
 # ESP-IDF config
 sdkconfig.old
