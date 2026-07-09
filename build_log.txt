@@ -1,0 +1,3 @@
+Executing action: all (aliases: build)
+Running ninja in directory C:\Users\123\Documents\trae_projects\esp32\build
+Executing "ninja all"...

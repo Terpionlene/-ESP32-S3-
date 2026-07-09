@@ -1,0 +1,16 @@
+Executing action: all (aliases: build)
+Running cmake in directory C:\Users\123\Documents\trae_projects\esp32\build
+Executing "cmake -G Ninja -B C:\Users\123\Documents\trae_projects\esp32\build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=D:\Espressif\tools\python\v6.0.1\venv\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=False C:\Users\123\Documents\trae_projects\esp32"...
+-- Found Git: D:/Espressif/tools/git/cmd/git.exe (found version "2.54.0.windows.1")
+-- Component directory D:/esp/v6.0.1/esp-idf/components/mqtt does not contain a CMakeLists.txt file. No component will be added
+-- Minimal build - OFF
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: D:/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: D:/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe
+-- Check for working C compiler: D:/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe - broken
+-- Configuring incomplete, errors occurred!
+BUILD_FAILED  

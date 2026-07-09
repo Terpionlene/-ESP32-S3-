@@ -1,0 +1,19 @@
+menu "API Configuration"
+    config DEEPSEEK_API_KEY
+        string "DeepSeek API Key"
+        default "your_deepseek_api_key_here"
+        help
+            Your DeepSeek API key for AI chat functionality.
+
+    config BAIDU_API_KEY
+        string "Baidu API Key"
+        default "your_baidu_api_key_here"
+        help
+            Your Baidu API key for ASR/TTS functionality.
+
+    config BAIDU_SECRET_KEY
+        string "Baidu Secret Key"
+        default "your_baidu_secret_key_here"
+        help
+            Your Baidu secret key for ASR/TTS functionality.
+endmenu

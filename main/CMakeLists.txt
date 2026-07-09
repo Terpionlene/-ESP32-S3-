@@ -1,0 +1,37 @@
+idf_component_register(
+    SRCS
+        "app_main.c"
+        "audio_es8311.c"
+        "voice_chat.c"
+        "lvgl_display.c"
+        "lvgl_ui.c"
+        "lvgl_input.c"
+        "ppt_controller.c"
+    INCLUDE_DIRS
+        "."
+        "../components"
+    REQUIRES
+        driver
+        esp_lcd
+        spi_flash
+        lvgl
+        nvs_flash
+        esp_pm
+        esp_phy
+        esp_coex
+        mbedtls
+        esp_driver_uart
+        vfs
+        esp_ringbuf
+        esp_driver_spi
+        esp_driver_gpio
+        esp_wifi
+        esp_netif
+        esp_event
+        lwip
+        esp-tls
+        esp_driver_i2s
+        esp_driver_i2c
+        esp_http_client
+        esp_timer
+)
