@@ -56,7 +56,7 @@
 
 ### 环境准备
 
-- **ESP-IDF 版本**：v5.5.4
+- **ESP-IDF 版本**：v6.0.1
 - **目标芯片**：ESP32-S3-WROOM2-N32R16V
 - **开发系统**：Windows / Linux / macOS
 
@@ -200,7 +200,7 @@ ESP32-S3-AI-Smart-Knob/
 
 | 技术 | 版本 |
 |------|------|
-| ESP-IDF | v5.5.4 |
+| ESP-IDF | v6.0.1 |
 | LVGL | v9.x |
 | DeepSeek API | deepseek-v4-flash |
 | 百度 AI | ASR + TTS |
